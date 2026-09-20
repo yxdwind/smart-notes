@@ -1,4 +1,4 @@
-#requires -Version 5.1
+﻿#requires -Version 5.1
 <#
 .SYNOPSIS
   安装/卸载本 skill 到已检测到的 AI 工具技能目录。
