@@ -22,6 +22,7 @@ done
 # 候选技能目录（父目录存在 = 对应工具大概率已安装）
 CANDIDATES=(
   "$HOME/.agents/skills"           # skills.sh 通用 / OpenClaw
+  "$HOME/.zcode/skills"            # ZCode
   "$HOME/.claude/skills"           # Claude Code
   "$HOME/.codex/skills"            # Codex
   "$HOME/.cursor/skills"           # Cursor
@@ -56,6 +57,9 @@ for t in "${TARGETS[@]}"; do
   if [ -d "$dest" ] && [ "$FORCE" -ne 1 ]; then
     echo "[!] 已存在: $dest （加 --force 覆盖）"
     continue
+  fi
+  if [ -d "$dest" ]; then
+    rm -rf "$dest"   # 覆盖前先清空，避免仓库已删除的文件残留在已装目录
   fi
   copy_skill "$dest"
   echo "[✓] 已安装 $SKILL_NAME -> $dest"

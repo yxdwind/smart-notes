@@ -4,7 +4,7 @@
 
 ## 这是什么
 
-一个 OpenClaw / Claude Code / Copilot CLI / Amp 兼容的 skill 目录，把全书十一个单元的卡片笔记方法论拆解为：
+一个符合 Agent Skills 标准、跨工具兼容的 skill 目录（Claude Code / OpenClaw / Codex / Cursor / Cline / CodeBuddy / ZCode 等；安装脚本自动探测，其余工具手动复制 SKILL.md 目录即可）。把全书十一个单元的卡片笔记方法论拆解为：
 
 - **命名框架与原则**——保留作者原话表述（如"闪念笔记/文献笔记/永久笔记"、"文献卡片盒与主卡片盒"、"写作是唯一重要的事情"）
 - **可执行的操作步骤**——每章的方法都写成"何时用 / 怎么做"
@@ -80,7 +80,7 @@ smart-notes/
 ├── examples/             # 六个完整实战案例（读书/写作/系统/自媒体/调研/学习）
 ├── glossary.md           # 全书术语表
 ├── patterns.md           # 方法与模式全集
-├── cheatsheet.md         # 决策速查表（最实用的一层）
+├── cheatsheet.md         # 决策速查表（当…就…判断规则+阈值+危险信号）
 ├── overview.html         # 可视化总览页
 └── README.md
 ```
