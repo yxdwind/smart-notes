@@ -29,6 +29,7 @@ CANDIDATES=(
   "$HOME/.cline/skills"            # Cline
   "$HOME/.codebuddy/skills"        # CodeBuddy
   "$HOME/.openclaw/skills"         # OpenClaw
+  "$HOME/.openclaw-autoclaw/skills" # OpenClaw(AutoClaw)
 )
 
 TARGETS=()
