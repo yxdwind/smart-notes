@@ -1,5 +1,7 @@
 # 卡片笔记写作法 (smart-notes)
 
+![Release](https://img.shields.io/github/v/release/yxdwind/smart-notes) ![License](https://img.shields.io/github/license/yxdwind/smart-notes) ![Agent Skills](https://img.shields.io/badge/Agent-Skills-blue)
+
 > 从《卡片笔记写作法：如何实现从阅读到写作》（申克·阿伦斯著，陈琳译，人民邮电出版社 2021）提炼的 Agent 技能库——不是书的摘要，而是一套可执行的卡片笔记方法论工具箱。
 
 ## 这是什么
@@ -45,7 +47,7 @@ git clone https://github.com/yxdwind/smart-notes.git
 # 如 ~/.agents/skills/smart-notes 或 ~/.claude/skills/smart-notes
 ```
 
-更新已装的 skill：`npx skills update smart-notes`，或重跑安装脚本（加 -Force/--force 覆盖）。
+更新已装的 skill：`npx skills update smart-notes`，或重跑安装脚本（加 -Force/--force 覆盖）。固定版本下载见 [Releases](https://github.com/yxdwind/smart-notes/releases)。
 
 ## 使用案例
 
