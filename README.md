@@ -61,6 +61,7 @@ git clone https://github.com/yxdwind/smart-notes.git
 | "给健康科普号设计一条内容流水线，解决选题焦虑" | 母题深挖→集群生长→多稿并行的一体化流水线（[案例4](examples/example-4-selfmedia-topic-pipeline.md)） |
 | "把这份用户调研变成可复用的洞察资产" | 转述式洞察卡→新旧对质→集群密度决定决策时机（[案例5](examples/example-5-research-insights.md)） |
 | "我要三个月入门一个新领域，设计学习笔记系统" | 必要难度+提取练习的学习闭环，标注被本书否定的流行做法（[案例6](examples/example-6-learning-system.md)） |
+| "把我在微信读书里的划线整理进卡片盒" | 划线→主题化文献笔记→择优升级永久笔记→对质互链→云笔记导入包（[案例7](examples/example-7-weread-to-box.md)） |
 
 ## 目录结构
 
@@ -79,10 +80,11 @@ smart-notes/
 │   ├── ch09-step5-share-insights.md     # 步骤五 分享你的洞见
 │   ├── ch10-step6-habits-afterword.md   # 步骤六 养成习惯（附后记）
 │   └── ch11-practice-notes.md           # 实践篇：卡片笔记写作法实践（刘少楠）
-├── examples/             # 六个完整实战案例（读书/写作/系统/自媒体/调研/学习）
+├── examples/             # 七个完整实战案例（读书/写作/系统/自媒体/调研/学习/划线入盒）
 ├── glossary.md           # 全书术语表
 ├── patterns.md           # 方法与模式全集
 ├── cheatsheet.md         # 决策速查表（当…就…判断规则+阈值+危险信号）
+├── cloud-notes.md        # 云笔记适配：本地生产端 + ima/语雀/有道消费端
 ├── overview.html         # 可视化总览页
 └── README.md
 ```
