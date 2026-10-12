@@ -213,7 +213,7 @@ P1-5 与 P2 全部执行完毕，共改动 10 个文件（含本报告）：
 8. 每日条数写法统一为「3-6」：SKILL.md 生产线 en dash（3–6）与 ch07 波浪号（3~6）各归一。
 9. README 目录树补 install 脚本/LICENSE/AUDIT_REPORT（与 overview.html 树对齐）；两个安装脚本复制时排除 AUDIT_REPORT.md（审计记录不随技能分发）。
 
-**仓库外记录**：GitHub v1.0.0 Release 正文代码块渲染为「undefinedshell」（GitHub 页面瑕疵），需在线编辑 release 正文修复，不在本仓库改动范围。
+**仓库外记录（已修复，2026-10-12）**：GitHub v1.0.0 Release 正文「undefinedshell」根因是代码块缺收尾围栏（```bash 未闭合，渲染层吞掉后续内容），已通过 GitHub API 补全围栏；顺带修复 v1.1.0 正文「** Upgrade 提示**」星号内空格导致的加粗失效。两处均已在服务端 HTML 验收：代码块渲染为标准 highlight 块、Upgrade 提示正常加粗。
 
 ### 三、结论
 
