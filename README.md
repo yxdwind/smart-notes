@@ -86,6 +86,9 @@ smart-notes/
 ├── cheatsheet.md         # 决策速查表（当…就…判断规则+阈值+危险信号）
 ├── cloud-notes.md        # 云笔记适配：本地生产端 + ima/语雀/有道消费端
 ├── overview.html         # 可视化总览页
+├── install.ps1 / install.sh   # 安装脚本（自动探测技能目录）
+├── LICENSE               # MIT（原书权利人声明见文内）
+├── AUDIT_REPORT.md       # 审计与修复记录
 └── README.md
 ```
 

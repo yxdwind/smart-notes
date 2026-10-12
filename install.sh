@@ -45,8 +45,8 @@ fi
 copy_skill() {
   local dest="$1"
   mkdir -p "$dest"
-  # 复制仓库内容（除 .git 外全部）
-  (cd "$REPO_DIR" && find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec cp -r {} "$dest/" \;)
+  # 复制仓库内容（排除 .git 与 AUDIT_REPORT.md 审计记录）
+  (cd "$REPO_DIR" && find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'AUDIT_REPORT.md' -exec cp -r {} "$dest/" \;)
 }
 
 for t in "${TARGETS[@]}"; do

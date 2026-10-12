@@ -34,10 +34,10 @@ if ($targets.Count -eq 0) {
     Write-Host "[i] 未检测到已知 AI 工具，安装到默认目录: $targets"
 }
 
-# 复制内容 = 仓库内除 .git 外全部文件
+# 复制内容 = 仓库内容（排除 .git 与 AUDIT_REPORT.md 审计记录）
 function Copy-Skill($dest) {
     New-Item -ItemType Directory -Force -Path $dest | Out-Null
-    Get-ChildItem $RepoDir | Where-Object { $_.Name -ne '.git' } | ForEach-Object {
+    Get-ChildItem $RepoDir | Where-Object { $_.Name -notin @('.git', 'AUDIT_REPORT.md') } | ForEach-Object {
         Copy-Item $_.FullName $dest -Recurse -Force
     }
 }
