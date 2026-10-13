@@ -1,6 +1,8 @@
 # 卡片笔记写作法 (smart-notes)
 
-![Release](https://img.shields.io/github/v/release/yxdwind/smart-notes) ![License](https://img.shields.io/github/license/yxdwind/smart-notes) ![Agent Skills](https://img.shields.io/badge/Agent-Skills-blue)
+[English](readme.en.md) | 简体中文
+
+![Version](https://img.shields.io/badge/version-v1.1.1-blue) ![Release](https://img.shields.io/github/v/release/yxdwind/smart-notes) ![License](https://img.shields.io/github/license/yxdwind/smart-notes) ![Agent Skills](https://img.shields.io/badge/Agent-Skills-blue)
 
 > 从《卡片笔记写作法：如何实现从阅读到写作》（申克·阿伦斯著，陈琳译，人民邮电出版社 2021）提炼的 Agent 技能库——不是书的摘要，而是一套可执行的卡片笔记方法论工具箱。
 
@@ -66,32 +68,20 @@ git clone https://github.com/yxdwind/smart-notes.git
 
 ## 目录结构
 
-```
-smart-notes/
-├── SKILL.md              # 核心框架 + 章节索引 + 主题索引（入口文件）
-├── chapters/             # 十一个单元逐章拆解（按需加载）
-│   ├── ch01-prefaces.md                 # 序言集：为什么是卡片笔记写作法
-│   ├── ch02-introduction.md             # 导论：写作是学术工作的核心
-│   ├── ch03-writing-overview.md         # 第一章 绪论：关于写作，你需要知道的
-│   ├── ch04-four-principles.md          # 第二章 有效写作的四个基本原则
-│   ├── ch05-step1-separate-tasks.md     # 步骤一 明确区分独立而又相关联的任务
-│   ├── ch06-step2-read-understand.md    # 步骤二 阅读和理解
-│   ├── ch07-step3-take-notes.md         # 步骤三 记卡片盒笔记
-│   ├── ch08-step4-develop-ideas.md      # 步骤四 发展想法
-│   ├── ch09-step5-share-insights.md     # 步骤五 分享你的洞见
-│   ├── ch10-step6-habits-afterword.md   # 步骤六 养成习惯（附后记）
-│   └── ch11-practice-notes.md           # 实践篇：卡片笔记写作法实践（刘少楠）
-├── examples/             # 七个完整实战案例（读书/写作/系统/自媒体/调研/学习/划线入盒）
-├── glossary.md           # 全书术语表
-├── patterns.md           # 方法与模式全集
-├── cheatsheet.md         # 决策速查表（当…就…判断规则+阈值+危险信号）
-├── cloud-notes.md        # 云笔记适配：本地生产端 + ima/语雀/有道消费端
-├── overview.html         # 可视化总览页
-├── install.ps1 / install.sh   # 安装脚本（自动探测技能目录）
-├── LICENSE               # MIT（原书权利人声明见文内）
-├── AUDIT_REPORT.md       # 审计与修复记录
-└── README.md
-```
+| 文件 | 说明 |
+|------|------|
+| [SKILL.md](SKILL.md) | 核心框架 + 章节索引 + 主题索引（入口文件） |
+| [chapters/](chapters/) | 十一个单元逐章拆解（按需加载）：[ch01 序言集](chapters/ch01-prefaces.md) · [ch02 导论](chapters/ch02-introduction.md) · [ch03 第一章 绪论](chapters/ch03-writing-overview.md) · [ch04 四个基本原则](chapters/ch04-four-principles.md) · [ch05 步骤一](chapters/ch05-step1-separate-tasks.md) · [ch06 步骤二](chapters/ch06-step2-read-understand.md) · [ch07 步骤三](chapters/ch07-step3-take-notes.md) · [ch08 步骤四](chapters/ch08-step4-develop-ideas.md) · [ch09 步骤五](chapters/ch09-step5-share-insights.md) · [ch10 步骤六（附后记）](chapters/ch10-step6-habits-afterword.md) · [ch11 实践篇（刘少楠）](chapters/ch11-practice-notes.md) |
+| [examples/](examples/) | 七个完整实战案例（读书/写作/系统/自媒体/调研/学习/划线入盒），逐条链接见上方使用案例表 |
+| [glossary.md](glossary.md) | 全书术语表 |
+| [patterns.md](patterns.md) | 方法与模式全集 |
+| [cheatsheet.md](cheatsheet.md) | 决策速查表（当…就…判断规则+阈值+危险信号） |
+| [cloud-notes.md](cloud-notes.md) | 云笔记适配：本地生产端 + ima/语雀/有道消费端 |
+| [overview.html](overview.html) | 可视化总览页 |
+| [install.ps1](install.ps1) / [install.sh](install.sh) | 安装脚本（自动探测技能目录） |
+| [LICENSE](LICENSE) | MIT（原书权利人声明见文内） |
+| [AUDIT_REPORT.md](AUDIT_REPORT.md) | 审计与修复记录（三轮） |
+| [README.md](README.md) / [readme.en.md](readme.en.md) | 本文件（中文 / 英文） |
 
 ## 用法
 
